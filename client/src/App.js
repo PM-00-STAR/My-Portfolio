@@ -11,7 +11,7 @@ function App() {
       <Home/>
       <AboutMe/>
       <Resume/>
-      <ContactYou/>
+      <ContactMe/>
       <Footer/>
     </div>
   );

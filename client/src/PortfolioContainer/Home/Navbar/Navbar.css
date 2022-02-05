@@ -5,12 +5,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     list-style-type:none;
-    justify-content: center;
+    justify-content:space-around;
     background-color:white;
     color:black;
     height: 50px;
     align-items: center;
-    padding: 0 60px;
+    padding: 0 10px 0 10px;
 
 }
 .nav-wrapper ul a{
@@ -38,5 +38,18 @@
 position: relative
 
 }
-
-
+@media screen and (max-width: 375px) {
+    .nav-wrapper ul a{
+     
+      
+    }
+     .nav-wrapper {
+        width:100%;
+        
+       
+  }
+  .nav-wrapper ul{
+           
+    padding: 0 10px 0 10px;
+}
+}

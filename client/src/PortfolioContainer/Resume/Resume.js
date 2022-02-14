@@ -1,12 +1,14 @@
 
 
 import React from 'react'
-
+import "./Resume.css"
 function Resume() {
   return (
       <>
+      
     <div className='container my-3'>
         <h1 style={{textAlign:"center"}}>My Resume</h1>
+        <div className='css'>
         <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -44,6 +46,7 @@ function Resume() {
       </div>
     </div>
   </div>
+</div>
 </div>
     </div>
     </>

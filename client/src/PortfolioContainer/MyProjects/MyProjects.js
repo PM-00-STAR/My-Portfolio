@@ -6,10 +6,10 @@ import ReactDOM from "react-dom";
 
 
 const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
+  { width: 1,  itemsToShow: 1 },
+  { width: 550,  itemsToShow: 2 },
+  { width: 768,  itemsToShow: 3 },
+  { width: 1200,  itemsToShow: 4 },
 ];
 
 function MyProjects() {
@@ -18,7 +18,7 @@ function MyProjects() {
     <>
     <div className="container my-3">
       <h1 style={{ textAlign: "center" }}>My Projects</h1>
-      <div className="App">
+      <div className="MyProjects">
         <Carousel breakPoints={breakPoints}>
           <Item>One</Item>
           <Item>Two</Item>
